@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Windows node.js安装与配置</title>
+    <link href="/2023/03/21/Windows-node-js%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    <url>/2023/03/21/Windows-node-js%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Windows-node-js安装及环境配置"><a href="#Windows-node-js安装及环境配置" class="headerlink" title="Windows node.js安装及环境配置"></a>Windows node.js安装及环境配置</h3><h4 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h4><p>1、下载安装包，可以下载LTS长期支持版</p><p>2、安装组件，保持默认就好</p><p>3、安装开发工具，开发工具可以等以后实际开发过程中安装，这里选择不勾选安装工具</p><p><img src="https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321163054.png" alt="img"></p><p>4、余下步骤默认就好</p><h4 id="配置node-js"><a href="#配置node-js" class="headerlink" title="配置node.js"></a>配置node.js</h4><p>1、移动到node.js安装目录下</p><p>2、创建全局组件文件夹和缓存文件夹</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sh"><span class="hljs-built_in">mkdir</span> node_global<br><span class="hljs-built_in">mkdir</span> node_cache<br></code></pre></td></tr></table></figure><p>3、设置npm全局包目录</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">npm config <span class="hljs-built_in">set</span> prefix <span class="hljs-string">&quot;/path/to/node_global&quot;</span><br></code></pre></td></tr></table></figure><p>4、设置缓存目录</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">npm config <span class="hljs-built_in">set</span> cache <span class="hljs-string">&quot;/path/to/node_cache&quot;</span><br></code></pre></td></tr></table></figure><p>5、将用户变量(环境变量)Path 中的npm路径更换为刚才<code>自定义的 node_global 全局包</code></p><p>6、新建<code>NODE_PATH</code>环境变量</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sh">变量名: NODE_PATH<br>变量值: 自定义的 node_global 全局包路径 + \node_modules<br></code></pre></td></tr></table></figure><p>7、在Path变量中新建</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">%NODE_PATH%<br></code></pre></td></tr></table></figure><p>8、添加国内镜像源</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">npm config <span class="hljs-built_in">set</span> registry https://registry.npm.taobao.org<br></code></pre></td></tr></table></figure><p>也可以使用定义的cnpm命令行工具代替默认的npm：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">npm install -g cnpm --registry=https://registry.npmmirror.com<br></code></pre></td></tr></table></figure><p>参考博客：</p><p><a href="https://timberkito.com/?p=145">Windows 环境下安装与配置Node.js | Timber_Blog (timberkito.com)</a></p><p><a href="https://zhuanlan.zhihu.com/p/442215189">node.js安装及环境配置超详细教程【Windows系统安装包方式】 - 知乎 (zhihu.com)</a></p><p><a href="https://www.cnblogs.com/RioTian/p/17128654.html">Windows 环境下安装与配置 Node.js - RioTian - 博客园 (cnblogs.com)</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>自定义油猴脚本</title>
     <link href="/2023/03/21/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/"/>
     <url>/2023/03/21/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</url>
