@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>自定义油猴脚本</title>
+    <link href="/2023/03/21/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/"/>
+    <url>/2023/03/21/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="sicaujiaowu自动填充账号密码"><a href="#sicaujiaowu自动填充账号密码" class="headerlink" title="sicaujiaowu自动填充账号密码"></a>sicaujiaowu自动填充账号密码</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-comment">// ==UserScript==</span><br><span class="hljs-comment">// @name         sicau jiaowu</span><br><span class="hljs-comment">// @namespace    http://tampermonkey.net/</span><br><span class="hljs-comment">// @version      0.1</span><br><span class="hljs-comment">// @description  try to take over the world!</span><br><span class="hljs-comment">// @author       You</span><br><span class="hljs-comment">// @match        https://jiaowu.sicau.edu.cn/web/web/web/index.asp</span><br><span class="hljs-comment">// @icon         https://www.google.com/s2/favicons?sz=64&amp;domain=sicau.edu.cn</span><br><span class="hljs-comment">// @grant        none</span><br><span class="hljs-comment">// ==/UserScript==</span><br><br>(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) &#123;<br>    <span class="hljs-string">&#x27;use strict&#x27;</span>;<br>    <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;txtUser&#x27;</span>).<span class="hljs-property">value</span> = <span class="hljs-string">&#x27;your number&#x27;</span>;<br>    <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;Userpwd&#x27;</span>).<span class="hljs-property">value</span> = <span class="hljs-string">&#x27;your password&#x27;</span>;<br>    $(<span class="hljs-string">&quot;[name=&#x27;lb&#x27;]&quot;</span>).<span class="hljs-title function_">get</span>(<span class="hljs-number">0</span>).<span class="hljs-property">checked</span> = <span class="hljs-literal">true</span>;<br>    <span class="hljs-comment">// Your code here...</span><br>&#125;)();<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>脚本分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>typora使用picgo(command line)图床配置</title>
     <link href="/2023/03/19/typora%E4%BD%BF%E7%94%A8picgo-command-line-%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/"/>
     <url>/2023/03/19/typora%E4%BD%BF%E7%94%A8picgo-command-line-%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/</url>
