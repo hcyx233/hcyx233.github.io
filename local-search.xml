@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>蓝队视角下的防御体系突破</title>
+    <link href="/2023/03/21/%E8%93%9D%E9%98%9F%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E9%98%B2%E5%BE%A1%E4%BD%93%E7%B3%BB%E7%AA%81%E7%A0%B4/"/>
+    <url>/2023/03/21/%E8%93%9D%E9%98%9F%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E9%98%B2%E5%BE%A1%E4%BD%93%E7%B3%BB%E7%AA%81%E7%A0%B4/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="蓝队视角下的防御体系突破"><a href="#蓝队视角下的防御体系突破" class="headerlink" title="蓝队视角下的防御体系突破"></a>蓝队视角下的防御体系突破</h4><blockquote><p>蓝队工作的”四板斧”</p></blockquote><p>第一阶段：站前收集</p><ol><li>漏洞挖掘</li><li>工具储备</li><li>战法策略</li><li>以赛代练</li></ol><p>第二阶段：情报收集</p><p>第三阶段：建立据点</p><p>通过撕开的口子，寻找和内网联通的通道，再进一步进行深入渗透，这个由外到内的过程一般称之为纵向渗透。如果没有找到内外联通的DMZ 区（Demilitarized Zone，隔离区），蓝队专家会继续撕口子，直到找到接入内网的点为止。  </p><p>第四阶段：横向移动</p><blockquote><p>蓝队的套路-常用的攻击战术</p></blockquote><ol><li><p>利用弱口令获得权限</p></li><li><p>利用互联网边界渗透内网</p></li><li><p>利用通用产品组件漏洞</p></li><li><p>利用安全产品0day漏洞</p><p>安全产品的0day漏洞常常是蓝队最好的攻击利器。</p></li><li><p>利用人心弱点社工钓鱼</p></li><li><p>利用供应链隐蔽攻击</p></li><li><p>利用下属单位迂回攻击</p></li><li><p>秘密渗透</p><p>不同于民间黑客或黑产团队，蓝队工作一般不会大规模使用漏洞扫描器，因为扫描器活动特征明显，很容易暴露自己。例如，目前主流的 WAF、 IPS 等防护设备都有识别漏洞扫描器的能力，一旦发现后，可能第一时间触发报警或阻断 IP。  </p></li><li><p>多点潜伏</p></li></ol><blockquote><p>蓝队眼中的防守弱点</p></blockquote><ol><li><p>资产混乱、隔离策略不严格</p><p><img src="https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321184258.png" alt="image-20230321184257313"></p></li><li><p>通用中间件未修复漏洞较多</p></li><li><p>边界设备成为进入内网的缺口</p></li><li><p>内网管理设备成扩大战果突破点</p><p><img src="https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321185056.png" alt="image-20230321184632860"></p></li><li><p>安全设备自身安全成为新的风险点</p><p><img src="https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321184734.png" alt="image-20230321184733627"></p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络安全</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>小六壬</title>
     <link href="/2023/03/21/%E5%B0%8F%E5%85%AD%E5%A3%AC/"/>
     <url>/2023/03/21/%E5%B0%8F%E5%85%AD%E5%A3%AC/</url>
