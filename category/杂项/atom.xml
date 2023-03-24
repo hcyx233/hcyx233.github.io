@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hcyx233.github.io</id>
+    <title>花晨月夕的个人博客 • Posts by &#34;杂项&#34; category</title>
+    <link href="https://hcyx233.github.io" />
+    <updated>2023-03-18T07:52:49.000Z</updated>
+    <category term="原创" />
+    <category term="作业" />
+    <category term="技术" />
+    <entry>
+        <id>https://hcyx233.github.io/2023/03/18/%E8%B5%84%E6%BA%90%E5%90%88%E9%9B%86/</id>
+        <title>资源合集</title>
+        <link rel="alternate" href="https://hcyx233.github.io/2023/03/18/%E8%B5%84%E6%BA%90%E5%90%88%E9%9B%86/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h3 id=&#34;开发类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开发类&#34;&gt;#&lt;/a&gt; 开发类&lt;/h3&gt;
+&lt;h4 id=&#34;golang&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#golang&#34;&gt;#&lt;/a&gt; GoLang&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://go.dev/doc/&#34;&gt;https://go.dev/doc/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java&#34;&gt;#&lt;/a&gt; Java&lt;/h4&gt;
+&lt;p&gt;Java 全栈知识体系：&lt;a href=&#34;https://pdai.tech/&#34;&gt;https://pdai.tech/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;java面试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java面试&#34;&gt;#&lt;/a&gt; Java 面试&lt;/h4&gt;
+&lt;p&gt;JavaGuide：&lt;a href=&#34;https://javaguide.cn/&#34;&gt;https://javaguide.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;算法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#算法&#34;&gt;#&lt;/a&gt; 算法&lt;/h4&gt;
+&lt;p&gt;代码随想录：&lt;a href=&#34;https://www.programmercarl.com/&#34;&gt;https://www.programmercarl.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;it课程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#it课程&#34;&gt;#&lt;/a&gt; IT 课程&lt;/h4&gt;
+&lt;p&gt;IT 课程：&lt;a href=&#34;https://www.yuque.com/itkecheng/oagp2g/osf7bx#kJtXA&#34;&gt;https://www.yuque.com/itkecheng/oagp2g/osf7bx#kJtXA&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;itercast培训视频&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#itercast培训视频&#34;&gt;#&lt;/a&gt; itercast 培训视频&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://n802.com/dir/13152-34242130-d8bc43&#34;&gt;IterCast.Com 全套视频 - 厘米天空软件备份&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;视频网站&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#视频网站&#34;&gt;#&lt;/a&gt; 视频网站&lt;/h4&gt;
+&lt;p&gt;神马影院：&lt;a href=&#34;https://www.osx9.com/&#34;&gt;https://www.osx9.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;樱花动漫：&lt;a href=&#34;https://www.yhdmp.cc/&#34;&gt;樱花动漫 §－专注动漫的门户网站&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;哈哩哈哩：&lt;a href=&#34;http://hali520.com/&#34;&gt;哈哩哈哩官网_halihali_哈哩哈哩动漫&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;视频网站合集：&lt;a href=&#34;https://www.alfxw.com/2022/10/24/ys/&#34;&gt;2022 超多免费在线影视网站收藏_阿力分享网 (alfxw.com)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;资源搜索&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#资源搜索&#34;&gt;#&lt;/a&gt; 资源搜索&lt;/h4&gt;
+&lt;p&gt;telegram 资源搜索：&lt;a href=&#34;https://www.sssoou.com/&#34;&gt;https://www.sssoou.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;100 多个值得收藏的各类资源网站：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/537453233&#34;&gt;https://zhuanlan.zhihu.com/p/537453233&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;壁纸&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#壁纸&#34;&gt;#&lt;/a&gt; 壁纸&lt;/h4&gt;
+&lt;p&gt;wallhaven：&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;https://wallhaven.cc/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;文档&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文档&#34;&gt;#&lt;/a&gt; 文档&lt;/h4&gt;
+&lt;p&gt;道客巴巴：&lt;a href=&#34;https://www.doc88.com/&#34;&gt;道客巴巴 - 在线文档分享平台&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;浏览器插件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#浏览器插件&#34;&gt;#&lt;/a&gt; 浏览器插件&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AdGuard 广告拦截器&lt;/li&gt;
+&lt;li&gt;Vidline 屏幕录像和录屏助手&lt;/li&gt;
+&lt;li&gt;沙拉查词 - 聚合词典划词翻译&lt;/li&gt;
+&lt;li&gt;Tampermonkey 校本管理&lt;/li&gt;
+&lt;li&gt;LastPass: Free Password Manager 密码管理器&lt;/li&gt;
+&lt;li&gt;Infinity 新标签页 (Pro)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;资源站点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#资源站点&#34;&gt;#&lt;/a&gt; 资源站点&lt;/h4&gt;
+&lt;p&gt;栗子博客：&lt;a href=&#34;https://www.lizi.tw/&#34;&gt;栗子博客 - 举个栗子小白教程 (lizi.tw)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;电子书网站合集&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#电子书网站合集&#34;&gt;#&lt;/a&gt; 电子书网站合集&lt;/h4&gt;
+&lt;p&gt;简道云合集：&lt;a href=&#34;https://tyi45di4ct.jiandaoyun.com/dash/5e7d915c6c56d8000674a8b8&#34;&gt;https://tyi45di4ct.jiandaoyun.com/dash/5e7d915c6c56d8000674a8b8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;搬书匠：&lt;a href=&#34;http://www.banshujiang.cn/&#34;&gt;http://www.banshujiang.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;网络安全&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#网络安全&#34;&gt;#&lt;/a&gt; 网络安全&lt;/h3&gt;
+&lt;h4 id=&#34;知乎-思睿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#知乎-思睿&#34;&gt;#&lt;/a&gt; 知乎 - 思睿&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/people/hu-ye-han/posts&#34;&gt;https://www.zhihu.com/people/hu-ye-han/posts&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ctf六大方向基础工具合集&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ctf六大方向基础工具合集&#34;&gt;#&lt;/a&gt; CTF 六大方向基础工具合集&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzU4OTg4Nzc4MQ==&amp;amp;mid=2247489366&amp;amp;idx=2&amp;amp;sn=b7f45121fdd7651ebf317e35ad01064f&amp;amp;chksm=fdc7f71ccab07e0afca0a281f67240dbc35afe7356062301b5281155b5ea442f40cbee8240ff&amp;amp;mpshare=1&amp;amp;scene=23&amp;amp;srcid=1127QKYqhme9IE3zAwpY0hZr&amp;amp;sharer_sharetime=1669522651937&amp;amp;sharer_shareid=dfe736ee6dd13378255894310f920e0e#rd&#34;&gt;CTF 六大方向基础工具合集 (qq.com)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;资源站点-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#资源站点-2&#34;&gt;#&lt;/a&gt; 资源站点&lt;/h4&gt;
+&lt;p&gt;集知盒子：&lt;a href=&#34;https://www.jizhihezi.com/&#34;&gt;集知盒子 - 有态度、有内涵、有价值 (jizhihezi.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安全圈 info：&lt;a href=&#34;https://www.anquanquan.info/&#34;&gt;安全圈 info - 做接地气的信息安全导航 (anquanquan.info)&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;ctf站点导航&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ctf站点导航&#34;&gt;#&lt;/a&gt; CTF 站点导航：&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://ctf.mzy0.com/&#34;&gt;https://ctf.mzy0.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://nav.luckysec.cn/&#34;&gt;LuckySec - 网络安全资源导航&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;逆向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#逆向&#34;&gt;#&lt;/a&gt; 逆向&lt;/h4&gt;
+&lt;p&gt;吾爱破解：&lt;a href=&#34;https://www.52pojie.cn/&#34;&gt;吾爱破解 - LCG - LSG | 安卓破解 | 病毒分析 | www.52pojie.cn&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="原创" />
+        <updated>2023-03-18T07:52:49.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://hcyx233.github.io/2023/03/18/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+        <title>hexo常用命令</title>
+        <link rel="alternate" href="https://hcyx233.github.io/2023/03/18/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h5 id=&#34;创建一篇新的文章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建一篇新的文章&#34;&gt;#&lt;/a&gt; 创建一篇新的文章&lt;/h5&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo new post 文章名字&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;生成新的静态文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#生成新的静态文件&#34;&gt;#&lt;/a&gt; 生成新的静态文件&lt;/h5&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;部署到远程仓库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#部署到远程仓库&#34;&gt;#&lt;/a&gt; 部署到远程仓库&lt;/h5&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;一般采用合并的命令：hexo g -d 生成静态文件并部署到远程仓库&lt;/p&gt;
+&lt;h5 id=&#34;在创建文件的时候生成同名的文件夹用户存放图片文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在创建文件的时候生成同名的文件夹用户存放图片文件&#34;&gt;#&lt;/a&gt; 在创建文件的时候生成同名的文件夹用户存放图片文件&lt;/h5&gt;
+&lt;p&gt;如果配置了图床就不需要这个选项了&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;post_asset_folder: &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;hexo图床图片不现实&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo图床图片不现实&#34;&gt;#&lt;/a&gt; hexo 图床图片不现实&lt;/h5&gt;
+&lt;p&gt;在 &lt;code&gt;\themes\fluid\layout\_partials\header.ejs&lt;/code&gt;  中添加如下代码:&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;s&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;meta name&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;referrer&#34;&lt;/span&gt; content&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;no-referrer&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230319101236.png&#34; alt=&#34;image-20230319101234895&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="原创" />
+        <updated>2023-03-18T02:05:49.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hcyx233.github.io</id>
+    <title>花晨月夕的个人博客 • Posts by &#34;网络安全&#34; category</title>
+    <link href="https://hcyx233.github.io" />
+    <updated>2023-03-21T10:49:26.000Z</updated>
+    <category term="原创" />
+    <category term="作业" />
+    <category term="技术" />
+    <entry>
+        <id>https://hcyx233.github.io/2023/03/21/%E8%93%9D%E9%98%9F%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E9%98%B2%E5%BE%A1%E4%BD%93%E7%B3%BB%E7%AA%81%E7%A0%B4/</id>
+        <title>蓝队视角下的防御体系突破</title>
+        <link rel="alternate" href="https://hcyx233.github.io/2023/03/21/%E8%93%9D%E9%98%9F%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E9%98%B2%E5%BE%A1%E4%BD%93%E7%B3%BB%E7%AA%81%E7%A0%B4/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h4 id=&#34;蓝队视角下的防御体系突破&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#蓝队视角下的防御体系突破&#34;&gt;#&lt;/a&gt; 蓝队视角下的防御体系突破&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;蓝队工作的 &amp;quot;四板斧&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一阶段：站前收集&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;漏洞挖掘&lt;/li&gt;
+&lt;li&gt;工具储备&lt;/li&gt;
+&lt;li&gt;战法策略&lt;/li&gt;
+&lt;li&gt;以赛代练&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;第二阶段：情报收集&lt;/p&gt;
+&lt;p&gt;第三阶段：建立据点&lt;/p&gt;
+&lt;p&gt;通过撕开的口子，寻找和内网联通的通道，再进一步进行深入渗透，这个由外到内的过程一般称之为纵向渗透。如果没有找到内外联通的 DMZ 区（Demilitarized Zone，隔离区），蓝队专家会继续撕口子，直到找到接入内网的点为止。&lt;/p&gt;
+&lt;p&gt;第四阶段：横向移动&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;蓝队的套路 - 常用的攻击战术&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;利用弱口令获得权限&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用互联网边界渗透内网&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用通用产品组件漏洞&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用安全产品 0day 漏洞&lt;/p&gt;
+&lt;p&gt;安全产品的 0day 漏洞常常是蓝队最好的攻击利器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用人心弱点社工钓鱼&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用供应链隐蔽攻击&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用下属单位迂回攻击&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;秘密渗透&lt;/p&gt;
+&lt;p&gt;不同于民间黑客或黑产团队，蓝队工作一般不会大规模使用漏洞扫描器，因为扫描器活动特征明显，很容易暴露自己。例如，目前主流的 WAF、 IPS 等防护设备都有识别漏洞扫描器的能力，一旦发现后，可能第一时间触发报警或阻断 IP。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多点潜伏&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;蓝队眼中的防守弱点&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;资产混乱、隔离策略不严格&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321184258.png&#34; alt=&#34;image-20230321184257313&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通用中间件未修复漏洞较多&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;边界设备成为进入内网的缺口&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内网管理设备成扩大战果突破点&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321185056.png&#34; alt=&#34;image-20230321184632860&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安全设备自身安全成为新的风险点&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230321184734.png&#34; alt=&#34;image-20230321184733627&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="原创" />
+        <updated>2023-03-21T10:49:26.000Z</updated>
+    </entry>
+</feed>

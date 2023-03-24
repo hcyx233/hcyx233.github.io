@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hcyx233.github.io</id>
+    <title>花晨月夕的个人博客 • Posts by &#34;ctf&#34; category</title>
+    <link href="https://hcyx233.github.io" />
+    <updated>2023-03-18T04:10:24.000Z</updated>
+    <category term="原创" />
+    <category term="作业" />
+    <category term="技术" />
+    <entry>
+        <id>https://hcyx233.github.io/2023/03/18/CTF/</id>
+        <title>CTF</title>
+        <link rel="alternate" href="https://hcyx233.github.io/2023/03/18/CTF/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h1 id=&#34;ctf&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ctf&#34;&gt;#&lt;/a&gt; CTF&lt;/h1&gt;
+&lt;h2 id=&#34;方向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#方向&#34;&gt;#&lt;/a&gt; 方向&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;web 安全&lt;/li&gt;
+&lt;li&gt;逆向工程 reverse&lt;/li&gt;
+&lt;li&gt;漏洞挖掘和漏洞利用 pwn，exploit&lt;/li&gt;
+&lt;li&gt;密码学 crypto&lt;/li&gt;
+&lt;li&gt;调查取证 misc&lt;/li&gt;
+&lt;li&gt;移动安全 mobile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ctf攻略&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ctf攻略&#34;&gt;#&lt;/a&gt; CTF 攻略&lt;/h2&gt;
+&lt;h3 id=&#34;基础知识&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础知识&#34;&gt;#&lt;/a&gt; 基础知识&lt;/h3&gt;
+&lt;p&gt;Linux 基础，计算机组成原理，操作系统原理，网络协议分析&lt;/p&gt;
+&lt;h3 id=&#34;a方向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#a方向&#34;&gt;#&lt;/a&gt; A 方向&lt;/h3&gt;
+&lt;p&gt;PWN+Reverse+Crypto，IDA 工具，逆向工程，密码学，缓冲区溢出&lt;/p&gt;
+&lt;h3 id=&#34;b方向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#b方向&#34;&gt;#&lt;/a&gt; B 方向&lt;/h3&gt;
+&lt;p&gt;Web+Misc，网络安全，内网渗透，数据库安全，信息收集能力&lt;/p&gt;
+&lt;h2 id=&#34;ctf在线演练&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ctf在线演练&#34;&gt;#&lt;/a&gt; CTF 在线演练&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230319094158.png&#34; alt=&#34;image-20230112125344291&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#环境&#34;&gt;#&lt;/a&gt; 环境&lt;/h2&gt;
+&lt;h3 id=&#34;浏览器及插件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#浏览器及插件&#34;&gt;#&lt;/a&gt; 浏览器及插件&lt;/h3&gt;
+&lt;p&gt;火狐延长支持版、hackbar&lt;/p&gt;
+&lt;h3 id=&#34;编辑器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编辑器&#34;&gt;#&lt;/a&gt; 编辑器&lt;/h3&gt;
+&lt;p&gt;notepad++，010editor&lt;/p&gt;
+&lt;h2 id=&#34;杂项题的基本解题思路&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#杂项题的基本解题思路&#34;&gt;#&lt;/a&gt; 杂项题的基本解题思路&lt;/h2&gt;
+&lt;h3 id=&#34;文件操作和隐写&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件操作和隐写&#34;&gt;#&lt;/a&gt; 文件操作和隐写&lt;/h3&gt;
+&lt;h4 id=&#34;文件类型识别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件类型识别&#34;&gt;#&lt;/a&gt; 文件类型识别&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;file 命令
+&lt;ol&gt;
+&lt;li&gt;格式：file filename&lt;/li&gt;
+&lt;li&gt;使用场景：不知道后缀名，无法打开文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;winhex
+&lt;ol&gt;
+&lt;li&gt;文件头对照表：&lt;a href=&#34;https://blog.csdn.net/qq_42777804/article/details/98876646&#34;&gt;常见的文件头信息对照表_就是 217 的博客 - CSDN 博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;文件头残缺 / 错误&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;文件分离操作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件分离操作&#34;&gt;#&lt;/a&gt; 文件分离操作&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;binwalk 工具
+&lt;ol&gt;
+&lt;li&gt;分析文件：binwalk filename&lt;/li&gt;
+&lt;li&gt;分离文件：binwalk -e filename&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;foremost
+&lt;ol&gt;
+&lt;li&gt;foremost 文件名 -o 输出目录名&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;dd
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.runoob.com/linux/linux-comm-dd.html&#34;&gt;Linux dd 命令 | 菜鸟教程 (runoob.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;winhex&lt;/li&gt;
+&lt;li&gt;010Editor&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;文件合并操作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件合并操作&#34;&gt;#&lt;/a&gt; 文件合并操作&lt;/h4&gt;
+&lt;h5 id=&#34;linux&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#linux&#34;&gt;#&lt;/a&gt; Linux&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;cat
+&lt;ol&gt;
+&lt;li&gt;cat 合并的文件 &amp;gt; 输出的文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;md5sum 完整性检测
+&lt;ol&gt;
+&lt;li&gt;md5sum 文件名&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;windows&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#windows&#34;&gt;#&lt;/a&gt; Windows&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;copy /B 合并的文件 输出的文件&lt;/li&gt;
+&lt;li&gt;md5 完整性检测：certutil-hashfile 文件名 md5&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;文件内容隐写&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件内容隐写&#34;&gt;#&lt;/a&gt; 文件内容隐写&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;winhex/010Editor&lt;/li&gt;
+&lt;li&gt;notepad++ hex-editor 插件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;图片隐写术&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#图片隐写术&#34;&gt;#&lt;/a&gt; 图片隐写术&lt;/h3&gt;
+&lt;p&gt;图片隐写的常用隐写方法：&lt;/p&gt;
+&lt;p&gt;细微的颜色差别、GIF 图多帧隐藏、exif 信息隐藏、图片修复、最低有效位 LSB 隐写、图片加密&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Firework&lt;/li&gt;
+&lt;li&gt;exif
+&lt;ol&gt;
+&lt;li&gt;查看图片的 exif 信息（地理位置等等）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;stegsolve
+&lt;ol&gt;
+&lt;li&gt;使用场景：两张图片信息基本相同&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43639682/article/details/113857310&#34;&gt;stegsolve 图片隐写解析器的使用_黑朱雀的博客 - CSDN 博客_stegsolve1.3 by caesum&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;LSB（最低有效位 Least Significant Bit）
+&lt;ol&gt;
+&lt;li&gt;工具：stegsolve，zsteg，wbStego43open&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;TweakPNG
+&lt;ol&gt;
+&lt;li&gt;使用场景：文件头正常却无法打开文件，利用 TweakPNG 修改 CRC&lt;/li&gt;
+&lt;li&gt;有时 CRC 没有错误，但是图片的高度或者宽度发生了错误，需要通过 CRC 计算出正确的高度或者宽度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Bftools
+&lt;ol&gt;
+&lt;li&gt;使用场景：在 Windows 的 cmd 下，对加密过的图片文件进行解密&lt;/li&gt;
+&lt;li&gt;bftools decode braincopter 要解密的图片名称 --output 输出文件名&lt;/li&gt;
+&lt;li&gt;bftools run 上一步输出的文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;SilentEye&lt;/li&gt;
+&lt;li&gt;JPG 图片加密
+&lt;ol&gt;
+&lt;li&gt;stegdetect 主要用于分析 jpeg 文件
+&lt;ol&gt;
+&lt;li&gt;stegdetect xxx.jpg&lt;/li&gt;
+&lt;li&gt;stegdetect -s 敏感度 xxx.jpg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;outguess&lt;/li&gt;
+&lt;li&gt;F5&lt;/li&gt;
+&lt;li&gt;二维码处理
+&lt;ol&gt;
+&lt;li&gt;电脑桌面二维码扫描器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;压缩文件处理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#压缩文件处理&#34;&gt;#&lt;/a&gt; 压缩文件处理&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;伪加密&lt;/li&gt;
+&lt;li&gt;暴力破解
+&lt;ol&gt;
+&lt;li&gt;archpr&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;明文攻击&lt;/li&gt;
+&lt;li&gt;压缩文件修复，十六进制第三位
+&lt;ol&gt;
+&lt;li&gt;0x72 表示标记块&lt;/li&gt;
+&lt;li&gt;0x73 表示是压缩文件头块&lt;/li&gt;
+&lt;li&gt;0x74 表示是文件头块&lt;/li&gt;
+&lt;li&gt;0x75 表示是注释头&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;流量取证技术&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#流量取证技术&#34;&gt;#&lt;/a&gt; 流量取证技术&lt;/h3&gt;
+&lt;h4 id=&#34;wireshark过滤器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#wireshark过滤器&#34;&gt;#&lt;/a&gt; wireshark 过滤器&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;过滤 IP
+&lt;ol&gt;
+&lt;li&gt;ip.src eq x.x.x.x&lt;/li&gt;
+&lt;li&gt;ip.dst eq x.x.x.x&lt;/li&gt;
+&lt;li&gt;ip.addr eq x.x.x.x&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;过滤端口
+&lt;ol&gt;
+&lt;li&gt;tcp.port eq xx&lt;/li&gt;
+&lt;li&gt;tcp.dstport == 80&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;过滤协议&lt;/li&gt;
+&lt;li&gt;过滤 MAC&lt;/li&gt;
+&lt;li&gt;包长度过滤&lt;/li&gt;
+&lt;li&gt;http 模式过滤
+&lt;ol&gt;
+&lt;li&gt;http.request.method == “GET”&lt;/li&gt;
+&lt;li&gt;http.request.uri == “path”&lt;/li&gt;
+&lt;li&gt;http contains “xxx”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;流量包文件分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#流量包文件分析&#34;&gt;#&lt;/a&gt; 流量包文件分析&lt;/h4&gt;
+&lt;h5 id=&#34;常见的http流关键内容&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常见的http流关键内容&#34;&gt;#&lt;/a&gt; 常见的 http 流关键内容&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;HTML 中直接包含重要信息&lt;/li&gt;
+&lt;li&gt;上传或下载文件内容，通常包含文件名、hash 值等关键信息，常用 post 请求上传&lt;/li&gt;
+&lt;li&gt;一句话木马，post 请求，内容包含 eval，内容使用 base64 加密&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;导出分组字节流&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#导出分组字节流&#34;&gt;#&lt;/a&gt; 导出分组字节流&lt;/h5&gt;
+&lt;h4 id=&#34;无线流量包跑密码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#无线流量包跑密码&#34;&gt;#&lt;/a&gt; 无线流量包跑密码&lt;/h4&gt;
+&lt;h5 id=&#34;无线wifi流量包&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#无线wifi流量包&#34;&gt;#&lt;/a&gt; 无线 WiFi 流量包&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;aircrack-ng 工具进行 WiFi 密码破解
+&lt;ol&gt;
+&lt;li&gt;用 aircrack-ng 检查 cap 包：aircrack-ng xxx.cap&lt;/li&gt;
+&lt;li&gt;用 aircrack-ng 跑字典进行握手包破解：aircrack-ng xxx.cap -w pass.txt&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;usb流量包文件分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#usb流量包文件分析&#34;&gt;#&lt;/a&gt; USB 流量包文件分析&lt;/h4&gt;
+&lt;p&gt;USB 协议的数据部分在 leftover capture data 域之中，右键 leftover capture data==》应用为列&lt;/p&gt;
+&lt;h5 id=&#34;usb键盘流量抓取分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#usb键盘流量抓取分析&#34;&gt;#&lt;/a&gt; USB 键盘流量抓取分析&lt;/h5&gt;
+&lt;p&gt;使用 wireshark 提供的命令行工具 tshark，可以将 leftover capture data 数据单独复制出来&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;span&gt;l&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;tshark &lt;span class=&#34;token parameter variable&#34;&gt;-r&lt;/span&gt; xxx.pcap &lt;span class=&#34;token parameter variable&#34;&gt;-T&lt;/span&gt; fileds &lt;span class=&#34;token parameter variable&#34;&gt;-e&lt;/span&gt; usb.capdata &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; xxx.txt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;usb鼠标流量抓取分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#usb鼠标流量抓取分析&#34;&gt;#&lt;/a&gt; USB 鼠标流量抓取分析&lt;/h5&gt;
+&lt;p&gt;鼠标流量包的数据长度为 4 个字节，第一个字节表示按键，0x00 表示没有按键，0x01 表示左键，0x02 表示右键，第二个字节代表左右偏移，第三个字节代表上下偏移&lt;/p&gt;
+&lt;h6 id=&#34;gnuplot-根据坐标画出图形&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#gnuplot-根据坐标画出图形&#34;&gt;#&lt;/a&gt; gnuplot 根据坐标画出图形&lt;/h6&gt;
+&lt;h5 id=&#34;usb流量分析工具&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#usb流量分析工具&#34;&gt;#&lt;/a&gt; USB 流量分析工具&lt;/h5&gt;
+&lt;h5 id=&#34;鼠标流量分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#鼠标流量分析&#34;&gt;#&lt;/a&gt; 鼠标流量分析&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/WangYihang/UsbMiceDataHacker&#34;&gt;GitHub - WangYihang/UsbMiceDataHacker: USB 鼠标流量包取证工具，主要用于绘制鼠标移动以及拖动轨迹&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;键盘流量分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#键盘流量分析&#34;&gt;#&lt;/a&gt; 键盘流量分析&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/WangYihang/UsbKeyboardDataHacker&#34;&gt;GitHub - WangYihang/UsbKeyboardDataHacker: USB 键盘流量包取证工具，用于恢复用户的击键信息&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;https流量包文件分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#https流量包文件分析&#34;&gt;#&lt;/a&gt; https 流量包文件分析&lt;/h4&gt;
+&lt;p&gt;https 流量是经过 TLS 协议加密过的，需要导入 key 才能看到原始的 http 流量。https = http + TLS&lt;/p&gt;
+&lt;p&gt;编辑 ==》首选项 ==》protocols ==》SSL ==》Edit RSA keys list&lt;/p&gt;
+&lt;h2 id=&#34;密码学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#密码学&#34;&gt;#&lt;/a&gt; 密码学&lt;/h2&gt;
+&lt;p&gt;对称密钥和非对称密钥&lt;/p&gt;
+&lt;h3 id=&#34;编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#编码&#34;&gt;#&lt;/a&gt; 编码&lt;/h3&gt;
+&lt;h4 id=&#34;ascii编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ascii编码&#34;&gt;#&lt;/a&gt; ASCII 编码&lt;/h4&gt;
+&lt;h4 id=&#34;base64编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#base64编码&#34;&gt;#&lt;/a&gt; base64 编码&lt;/h4&gt;
+&lt;h4 id=&#34;url编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#url编码&#34;&gt;#&lt;/a&gt; URL 编码&lt;/h4&gt;
+&lt;p&gt;特点：密文中有很多个 %&lt;/p&gt;
+&lt;h4 id=&#34;unicode编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unicode编码&#34;&gt;#&lt;/a&gt; Unicode 编码&lt;/h4&gt;
+&lt;p&gt;特点：密文中有多个  &lt;code&gt;\uxxx&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;js混淆&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#js混淆&#34;&gt;#&lt;/a&gt; JS 混淆&lt;/h4&gt;
+&lt;p&gt;特点：通常在 JS 脚本里使用 eval 和 function 进行混淆&lt;/p&gt;
+&lt;h2 id=&#34;ssh私钥泄露root主机&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ssh私钥泄露root主机&#34;&gt;#&lt;/a&gt; ssh 私钥泄露 root 主机&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;nmap 扫描端口 nmap  -sV ip
+&lt;ol&gt;
+&lt;li&gt;nmap 用法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;dirb 探测隐藏文件 dirb &lt;a href=&#34;http://ip&#34;&gt;http://ip&lt;/a&gt;:port/&lt;/li&gt;
+&lt;li&gt;ssh -i id_rsa user@ip 更改 id_rsa 权限 chmod 600 id_rsa
+&lt;ol&gt;
+&lt;li&gt;解密 ssh 密钥信息&lt;/li&gt;
+&lt;li&gt;ssh2john id_rsa &amp;gt; xxx&lt;/li&gt;
+&lt;li&gt;利用字典解密 iscrack 信息
+&lt;ol&gt;
+&lt;li&gt;zcat /usr/share/wordlists/rockyou.txt.gz | john --pipe --rules xxx&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;查找具有 root 权限的文件
+&lt;ol&gt;
+&lt;li&gt;find / -perm -4000 2&amp;gt; /dev/null&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;对于某些靶场也可以使用nikto扫描器来挖掘敏感信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#对于某些靶场也可以使用nikto扫描器来挖掘敏感信息&#34;&gt;#&lt;/a&gt; 对于某些靶场，也可以使用 nikto 扫描器来挖掘敏感信息&lt;/h3&gt;
+&lt;p&gt;nikto -host ip&lt;/p&gt;
+&lt;h3 id=&#34;常见文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常见文件&#34;&gt;#&lt;/a&gt; 常见文件&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;/etc/passwd&lt;/li&gt;
+&lt;li&gt;/etc/group&lt;/li&gt;
+&lt;li&gt;find / -user xxxuser&lt;/li&gt;
+&lt;li&gt;/tmp 缓冲文件目录&lt;/li&gt;
+&lt;li&gt;/etc/corntab 定时任务&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;可以使用 msf 来暴力破解 ssh 密码&lt;/p&gt;
+&lt;h2 id=&#34;smb信息泄露&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#smb信息泄露&#34;&gt;#&lt;/a&gt; SMB 信息泄露&lt;/h2&gt;
+&lt;h2 id=&#34;ctf书籍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ctf书籍&#34;&gt;#&lt;/a&gt; CTF 书籍&lt;/h2&gt;
+&lt;p&gt;web 应用安全权威指南&lt;/p&gt;
+&lt;p&gt;web 前端黑客技术揭秘&lt;/p&gt;
+&lt;p&gt;黑客秘籍 - 渗透测试实用指南&lt;/p&gt;
+&lt;p&gt;黑客攻防技术宝典 Web 实战篇&lt;/p&gt;
+&lt;p&gt;代码审计：企业级 Web 代码安全架构&lt;/p&gt;
+</content>
+        <category term="原创" />
+        <updated>2023-03-18T04:10:24.000Z</updated>
+    </entry>
+</feed>
