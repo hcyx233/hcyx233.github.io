@@ -11,7 +11,8 @@
   /* 取消banner背景 */
   #page-header {
     /* 采用透明的方式取消，最后一个0表示透明 */
-    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(255, 255, 255, 0); */
+    background-image: url(https://file.crazywong.com/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg);
   }
   
   /* 滚动条优化 */
