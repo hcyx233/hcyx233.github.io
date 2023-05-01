@@ -5,11 +5,229 @@
         <link>https://hcyx233.github.io</link>
         <description>花晨月夕的个人博客</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 01 May 2023 21:59:18 +0800</pubDate>
-        <lastBuildDate>Mon, 01 May 2023 21:59:18 +0800</lastBuildDate>
+        <pubDate>Mon, 01 May 2023 22:48:54 +0800</pubDate>
+        <lastBuildDate>Mon, 01 May 2023 22:48:54 +0800</lastBuildDate>
         <category>原创</category>
         <category>作业</category>
         <category>技术</category>
+        <item>
+            <guid isPermalink="true">https://hcyx233.github.io/2023/05/01/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+            <title>系统安全面试题</title>
+            <link>https://hcyx233.github.io/2023/05/01/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+            <pubDate>Mon, 01 May 2023 22:48:54 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h3 id=&#34;shiro550和shiro721区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shiro550和shiro721区别&#34;&gt;#&lt;/a&gt; shiro550 和 shiro721 区别&lt;/h3&gt;
+&lt;h3 id=&#34;mysql与sqlserver注入的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mysql与sqlserver注入的区别&#34;&gt;#&lt;/a&gt; MySQL 与 SQLserver 注入的区别&lt;/h3&gt;
+&lt;p&gt;字符串类型：MySQL 和 SQL Server 在处理字符串类型的数据时存在差异，这也会影响 SQL 注入的攻击方式。在 MySQL 中，字符串需要用单引号包括起来；而在 SQL Server 中，则需要用单引号或双引号包括起来。因此，攻击者需要根据目标数据库类型选择正确的注入字符串格式。&lt;/p&gt;
+&lt;p&gt;系统表：在 SQL Server 中，系统表可以直接从数据库中查询，从而获取敏感信息。而在 MySQL 中，只有特定的用户才能够查询系统表，这也减少了 SQL 注入攻击的风险。&lt;/p&gt;
+&lt;p&gt;预处理语句：SQL Server 支持预处理语句，这使得在应用程序中嵌入 SQL 语句变得更加困难。而在 MySQL 中，预处理语句的支持则较弱，使得 SQL 注入的攻击面更大。&lt;/p&gt;
+&lt;p&gt;SQL Server 的存储过程中可以使用临时表，而 MySQL 存储过程中不支持创建临时表，因此，攻击者在攻击过程中也会有所区别。&lt;/p&gt;
+&lt;h3 id=&#34;apache和nginx的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#apache和nginx的区别&#34;&gt;#&lt;/a&gt; apache 和 nginx 的区别&lt;/h3&gt;
+&lt;h3 id=&#34;dns功能默认端口使用的是什么协议&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#dns功能默认端口使用的是什么协议&#34;&gt;#&lt;/a&gt; DNS 功能，默认端口，使用的是什么协议&lt;/h3&gt;
+&lt;p&gt;功能：&lt;/p&gt;
+&lt;p&gt;1. 域名空间：定义一个包括所有可能出现的主机名字的域名空间&lt;/p&gt;
+&lt;p&gt;2. 域名注册：保证每台主机域名的唯一性&lt;/p&gt;
+&lt;p&gt;3. 域名解析：提供一种有效的域名与 IP 地址转换机制&lt;/p&gt;
+&lt;p&gt;端口：53&lt;/p&gt;
+&lt;p&gt;协议：DNS 区域传输的时候使用 TCP 协议，域名解析是采用 UDP 协议&lt;/p&gt;
+&lt;h3 id=&#34;mysql默认数据库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mysql默认数据库&#34;&gt;#&lt;/a&gt; MySQL 默认数据库&lt;/h3&gt;
+&lt;p&gt;1.information_schema&lt;/p&gt;
+&lt;p&gt;2.performance_schema&lt;/p&gt;
+&lt;p&gt;3.mysql&lt;/p&gt;
+&lt;p&gt;4.test&lt;/p&gt;
+&lt;h3 id=&#34;mysql存放用户存放在哪个表中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mysql存放用户存放在哪个表中&#34;&gt;#&lt;/a&gt; MySQL 存放用户存放在哪个表中&lt;/h3&gt;
+&lt;p&gt;mysql.user&lt;/p&gt;
+&lt;h3 id=&#34;数据库的同步方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据库的同步方法&#34;&gt;#&lt;/a&gt; 数据库的同步方法&lt;/h3&gt;
+&lt;p&gt;1. 基于无侵入的日志模式&lt;/p&gt;
+&lt;p&gt;2. 基于时间戳&lt;/p&gt;
+&lt;p&gt;3. 基于触发器&lt;/p&gt;
+&lt;p&gt;4. 基于快照&lt;/p&gt;
+&lt;p&gt;5. 基于离线批处理&lt;/p&gt;
+&lt;h3 id=&#34;主从复制原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主从复制原理&#34;&gt;#&lt;/a&gt; 主从复制原理&lt;/h3&gt;
+&lt;p&gt;主数据库进行增删改操作后，相应操作记录的语句会记录到 binlog 日志&lt;br&gt;
+文件中；从数据库会请求主数据库的 binlog 日志文件，获取到新的操作&lt;br&gt;
+语句，然后在自己的从数据库上自动执行相同的操作语句，进而实现主&lt;br&gt;
+从复制。&lt;/p&gt;
+&lt;h3 id=&#34;系统日志有啥用日志文件的位置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#系统日志有啥用日志文件的位置&#34;&gt;#&lt;/a&gt; 系统日志有啥用，日志文件的位置&lt;/h3&gt;
+&lt;p&gt;记录系统中硬件、软件和系统问题的信息，系统中发生的事件；&lt;/p&gt;
+&lt;p&gt;路径 1：/var/log/messages：记录 Linux 内核消息及各种应用程序的&lt;br&gt;
+公共日志信息&lt;br&gt;
+路径 2：/var/log/cron：记录 crond 计划任务产生的事件信息&lt;br&gt;
+路径 3：/var/log/dmesg：记录 Linux 操作系统在引导过程中的各种事件信&lt;br&gt;
+息&lt;br&gt;
+路径 4：/var/log/maillog：记录进入或发出系统的电子邮件活动&lt;br&gt;
+路径 5：/var/log/lastlog：记录每个用户最近的登录事件&lt;br&gt;
+路径 6：/var/log/secure：记录用户认证相关的安全事件信息&lt;br&gt;
+路径 7：/var/log/wtmp：记录每个用户登录、注销及系统启动和停机事件&lt;br&gt;
+路径 8：/var/log/btmp：记录失败的、错误的登录尝试及验证事件&lt;/p&gt;
+&lt;h3 id=&#34;常见的高危端口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常见的高危端口&#34;&gt;#&lt;/a&gt; 常见的高危端口&lt;/h3&gt;
+&lt;p&gt;20：FTP 服务数据连接端口。&lt;br&gt;
+21：FTP 服务控制连接端口。&lt;br&gt;
+22：SSH 服务端口，建议更换。&lt;br&gt;
+23：Telnet 服务端口，明文传输账号密码。&lt;br&gt;
+25：SMTP 邮件服务端口，发送邮件。&lt;br&gt;
+53：DNS 解析服务端口。&lt;br&gt;
+67：DHCP Servr 服务端口。&lt;br&gt;
+68：DHCP Client 服务端口。&lt;br&gt;
+69：TFTP 服务端口。&lt;br&gt;
+80：WWW 服务端口，Http 网页。&lt;br&gt;
+110：POP3 服务端口，接收邮件。&lt;br&gt;
+135：RPC 服务端口，永恒之蓝。&lt;br&gt;
+137：NetBIOS 名称服务，永恒之蓝。&lt;br&gt;
+138：共享服务端口，永恒之蓝。&lt;br&gt;
+139：NetBIOS/SMB 服务端口，永恒之蓝。&lt;br&gt;
+143：IMAP 服务端口，接收邮件。&lt;br&gt;
+161：SNMP 服务端口。&lt;br&gt;
+162：SNMP 服务端口。&lt;br&gt;
+443：WWW 服务端口，Https 网页。&lt;br&gt;
+445：文件共享端口，永恒之蓝。&lt;br&gt;
+1194：Open vpn 服务端口。&lt;br&gt;
+3306：MySQL 数据库端口。&lt;br&gt;
+3389：远程桌面。&lt;/p&gt;
+&lt;h3 id=&#34;远程连接的端口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#远程连接的端口&#34;&gt;#&lt;/a&gt; 远程连接的端口&lt;/h3&gt;
+&lt;p&gt;22 SSH 远程连接&lt;br&gt;
+ 23 Telnet 远程连接&lt;br&gt;
+ 3389 Rdp 远程桌面连接&lt;br&gt;
+ 5900 VNC&lt;br&gt;
+5632 PyAnywhere 服务&lt;/p&gt;
+&lt;h3 id=&#34;计划任务命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#计划任务命令&#34;&gt;#&lt;/a&gt; 计划任务命令&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://1.at&#34;&gt;1.at&lt;/a&gt; 一次性计划任务的服务管理命令&lt;/p&gt;
+&lt;p&gt;2.crontab 周期性计划任务&lt;/p&gt;
+&lt;h3 id=&#34;linux安全基线&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#linux安全基线&#34;&gt;#&lt;/a&gt; Linux 安全基线&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.aliyun.com/article/552766&#34;&gt;https://developer.aliyun.com/article/552766&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;自治域系统as&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自治域系统as&#34;&gt;#&lt;/a&gt; 自治域系统 (AS)&lt;/h3&gt;
+&lt;p&gt;AS 是一组路由器的集合，它们拥有同样的选路策略、被同一技术管理部&lt;br&gt;
+门管理运行。每个自治系统可以制定自己的路由策略。因此可以说自治&lt;br&gt;
+系统是一同工作运行，以提供内部选路的内部网关协议的汇集。&lt;/p&gt;
+&lt;h3 id=&#34;cookie和session的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cookie和session的区别&#34;&gt;#&lt;/a&gt; cookie 和 session 的区别&lt;/h3&gt;
+&lt;p&gt;1、数据存放位置不同：&lt;br&gt;
+cookie 数据存放在客户的浏览器上，session 数据放在服务器上。&lt;br&gt;
+2、安全程度不同：&lt;br&gt;
+cookie 不是很安全，别人可以分析存放在本地的 COOKIE 并进行 COOKIE&lt;br&gt;
+ 欺骗，考虑到安全应当使用 session。&lt;br&gt;
+3、性能使用程度不同：&lt;br&gt;
+session 会在一定时间内保存在服务器上。当访问增多，会比较占用你&lt;br&gt;
+服务器的性能，考虑到减轻服务器性能方面，应当使用 cookie。&lt;br&gt;
+4、数据存储大小不同：&lt;br&gt;
+单个 cookie 保存的数据不能超过 4K，很多浏览器都限制一个站点最多&lt;br&gt;
+保存 20 个 cookie，而 session 则存储与服务端，浏览器对其没有限制。&lt;br&gt;
+5、会话机制不同&lt;br&gt;
+ session 会话机制：session 会话机制是一种服务器端机制，它使用类似&lt;br&gt;
+于哈希表（可能还有哈希表）的结构来保存信息。&lt;br&gt;
+cookies 会话机制：cookie 是服务器存储在本地计算机上的小块文本，&lt;br&gt;
+并随每个请求发送到同一服务器。Web 服务器使用 HTTP 标头将 cookie&lt;br&gt;
+ 发送到客户端。在客户端终端，浏览器解析 cookie 并将其保存为本地文&lt;br&gt;
+件，该文件自动将来自同一服务器的任何请求绑定到这些 cookie。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://hcyx233.github.io/2023/05/01/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%982/</guid>
+            <title>渗透测试面试题2</title>
+            <link>https://hcyx233.github.io/2023/05/01/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%982/</link>
+            <pubDate>Mon, 01 May 2023 22:47:48 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h3 id=&#34;http-only&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#http-only&#34;&gt;#&lt;/a&gt; http-only&lt;/h3&gt;
+&lt;p&gt;如果 cookie 中设置了 HttpOnly 属性，那么通过 js 脚本将无法读取到 cookie 信息，这样能有效的防止 XSS 攻击，窃取 cookie 内容，这样就增加了 cookie 的安全性，即便是这样，也不要将重要信息存入 cookie。XSS 全称 Cross SiteScript，跨站脚本攻击，是 Web 程序中常见的漏洞，XSS 属于&lt;strong&gt;被动式&lt;/strong&gt;且用于客户端的攻击方式，所以容易被忽略其危害性。其原理是攻击者向有 XSS 漏洞的网站中输入 (传入) 恶意的 HTML 代码，当其它用户浏览该网站时，这段 HTML 代码会自动执行，从而达到攻击的目的。如，盗取用户 Cookie、破坏页面结构、重定向到其它网站等。&lt;/p&gt;
+&lt;h3 id=&#34;xss有cookie一定可以无用户名密码登录吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#xss有cookie一定可以无用户名密码登录吗&#34;&gt;#&lt;/a&gt; xss 有 cookie 一定可以无用户名密码登录吗？&lt;/h3&gt;
+&lt;p&gt;基本可以。因为把 cookie 的值给浏览器，浏览器去访问页面会用已有的 cookie 去访问，如果 cookie 有效，就会直接进去。&lt;/p&gt;
+&lt;h3 id=&#34;漏洞测试的流程是什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#漏洞测试的流程是什么&#34;&gt;#&lt;/a&gt; 漏洞测试的流程是什么？&lt;/h3&gt;
+&lt;p&gt;攻击前：网络踩点、网络扫描、网络查点&lt;/p&gt;
+&lt;p&gt;攻击中：利用漏洞信息进行渗透攻击、获取权限&lt;/p&gt;
+&lt;p&gt;攻击后：后渗透维持攻击、文件拷贝、木马植入、痕迹擦除&lt;/p&gt;
+&lt;h3 id=&#34;cookie存在哪里可以打开吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cookie存在哪里可以打开吗&#34;&gt;#&lt;/a&gt; cookie 存在哪里？可以打开吗&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Windows&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;C:\Users\ 用户名 \AppData\Roaming\Microsoft\Windows\Cookies&lt;/p&gt;
+&lt;p&gt;工具–文件夹选项–查看–将隐藏被保护的文件的对勾去掉就会看到 cookies 文件夹。&lt;/p&gt;
+&lt;h3 id=&#34;csrf-xss-xxe&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#csrf-xss-xxe&#34;&gt;#&lt;/a&gt; CSRF、XSS、XXE&lt;/h3&gt;
+&lt;p&gt;XSS：跨站脚本攻击，用户提交的数据中可以构造恶意代码，并且执行，从而实现窃取用户信息等&lt;/p&gt;
+&lt;p&gt;修复方式：1、对实体字符进行转义 2、使用 http only 来禁止 JavaScript 读取 cookie 值 3、输入时校验、浏览器与 web 应用端采用相同的字符编码&lt;/p&gt;
+&lt;p&gt;CSRF：跨站请求伪造攻击&lt;/p&gt;
+&lt;p&gt;修复方式：1、筛选出需要防范 CSRF 的页面，然后嵌入 token、再次输入密码、校验 referer&lt;/p&gt;
+&lt;p&gt;XXE：XML 外部实体注入攻击，敏感文件读取&lt;/p&gt;
+&lt;p&gt;修复方式：XML 解析库在调用时严格禁止对外部实体的解析&lt;/p&gt;
+&lt;h3 id=&#34;get和post的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#get和post的区别&#34;&gt;#&lt;/a&gt; GET 和 POST 的区别&lt;/h3&gt;
+&lt;p&gt;1、GET 把请求数据放在 URL 上，以？分割 URL 和传输数据，参数之间用 &amp;amp; 相连，所以 GET 不太安全；而 POST 是把数据放在 HTTP 数据包里面 request body&lt;/p&gt;
+&lt;p&gt;2、GET 一般用来获取数据；POST 用来修改数据&lt;/p&gt;
+&lt;p&gt;3、GET 提交的数据最大时 2K（实际的限制取决于浏览器）；POST 理论上是没有限制的&lt;/p&gt;
+&lt;p&gt;4、GET 产生一个数据包，浏览器会把 header 和 data 一起发出去，服务端返回响应状态码，然后返回数据；POST 产生两个数据包，先发送 header，然后返回响应状态码 100（continue），浏览器再发送 data，服务端返回响应状态码，然后返回数据&lt;/p&gt;
+&lt;p&gt;5、GET 请求会被浏览器主动缓存；POST 不会，除非手动设置&lt;/p&gt;
+&lt;h3 id=&#34;xss有哪几种类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#xss有哪几种类型&#34;&gt;#&lt;/a&gt; XSS 有哪几种类型？&lt;/h3&gt;
+&lt;p&gt;1、反射型：非持久型、参数型，恶意代码并没有保存在目标网站。由后端进行处理&lt;/p&gt;
+&lt;p&gt;2、存储型：持久型，恶意代码会存储在目标网站。后端进行处理&lt;/p&gt;
+&lt;p&gt;3、DOM 型：通过修改网页的 DOM 节点形成 XSS。前端处理&lt;/p&gt;
+&lt;p&gt;区别：反射性的恶意代码存在 URL 里，存储型恶意代码存在服务器端；属于服务端的安全漏洞&lt;/p&gt;
+&lt;p&gt;而 DOM 型，取出和执行恶意代码都是由前端浏览器完成，属于前端 JavaScript 自身的安全漏洞&lt;/p&gt;
+&lt;h3 id=&#34;拿到一个待检测的站你该如何渗透渗透测试的思路&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#拿到一个待检测的站你该如何渗透渗透测试的思路&#34;&gt;#&lt;/a&gt; 拿到一个待检测的站，你该如何渗透？渗透测试的思路&lt;/h3&gt;
+&lt;p&gt;1、信息收集&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;服务器相关信息：真实 ip、系统类型、版本、开发的端口等等&lt;/li&gt;
+&lt;li&gt;网站指纹：cms、cdn、dns 记录、证书&lt;/li&gt;
+&lt;li&gt;whois 信息：姓名、备案、邮箱、电话&lt;/li&gt;
+&lt;li&gt;子域名收集、旁站、C 段等&lt;/li&gt;
+&lt;li&gt;google hacking&lt;/li&gt;
+&lt;li&gt;扫描网站目录结构，爆破后台&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2、漏洞测试&lt;/p&gt;
+&lt;p&gt;SQL 注入、文件上传、命令执行、XSS、XXE、文件包含&lt;/p&gt;
+&lt;p&gt;3、漏洞利用&lt;/p&gt;
+&lt;p&gt;getshell&lt;/p&gt;
+&lt;p&gt;4、权限提升&lt;/p&gt;
+&lt;p&gt;5、权限维持&lt;/p&gt;
+&lt;p&gt;6、内网扫描&lt;/p&gt;
+&lt;p&gt;7、内网攻击&lt;/p&gt;
+&lt;p&gt;8、痕迹清理&lt;/p&gt;
+&lt;p&gt;9、总结报告及修复方案&lt;/p&gt;
+&lt;h3 id=&#34;如何验证存在xss漏洞&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何验证存在xss漏洞&#34;&gt;#&lt;/a&gt; 如何验证存在 XSS 漏洞？&lt;/h3&gt;
+&lt;p&gt;XSS 漏洞的概念；本质：用户输入的 HTML 语句直接输出&lt;/p&gt;
+&lt;p&gt;1、找到输入，用户可以操控代码的位置&lt;/p&gt;
+&lt;p&gt;2、找输出，输入的代码会在网页的哪个位置进行输出&lt;/p&gt;
+&lt;p&gt;3、构造 payload&lt;/p&gt;
+&lt;h3 id=&#34;csrf-ssrf-重放攻击有什么区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#csrf-ssrf-重放攻击有什么区别&#34;&gt;#&lt;/a&gt; CSRF、SSRF、重放攻击有什么区别&lt;/h3&gt;
+&lt;p&gt;CSRF 是跨站请求伪造攻击，由客户端发起；&lt;/p&gt;
+&lt;p&gt;SSRF 是服务器端请求伪造；由服务器端发起的；&lt;/p&gt;
+&lt;p&gt;重放攻击是将截获的数据包进行重放，达到身份认证等目的。&lt;/p&gt;
+&lt;h3 id=&#34;xss-csrf-ssrf的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#xss-csrf-ssrf的区别&#34;&gt;#&lt;/a&gt; XSS、CSRF、SSRF 的区别？&lt;/h3&gt;
+&lt;p&gt;SSRF：SSRF 是服务器对用户提供的可控 URL 过于信任，没有对攻击者提供的 URL 进行地址限制和严格的检测，导致攻击者可以以此为跳板攻击内网或其他服务器。&lt;/p&gt;
+&lt;h3 id=&#34;java反序列化了解吗有没有了解过shiro反序列化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java反序列化了解吗有没有了解过shiro反序列化&#34;&gt;#&lt;/a&gt; Java 反序列化了解吗？有没有了解过 Shiro 反序列化？&lt;/h3&gt;
+&lt;h4 id=&#34;java反序列化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java反序列化&#34;&gt;#&lt;/a&gt; Java 反序列化&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/home/hcyx/.config/Typora/typora-user-images/image-20230422115142434.png&#34; alt=&#34;image-20230422115142434&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;shiro反序列化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shiro反序列化&#34;&gt;#&lt;/a&gt; shiro 反序列化&lt;/h4&gt;
+&lt;p&gt;Apache Shiro 框架提供了记住密码的功能（RememberMe），用户登录成功后会生成经过加密并编码的 cookie。在服务端对 rememberMe 的 cookie 值，先 base64 解码然后 AES 解密再反序列化，就导致了反序列化 RCE 漏洞。 那么，Payload 产生的过程： 命令 =&amp;gt; 序列化 =&amp;gt;AES 加密 =&amp;gt;base64 编码 =&amp;gt;RememberMe Cookie 值 在整个漏洞利用过程中，比较重要的是 AES 加密的密钥，如果没有修改默认的密钥那么就很容易就知道密钥了，Payload 构造起来也是十分的简单。&lt;/p&gt;
+&lt;h3 id=&#34;php反序列化漏洞了解过吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#php反序列化漏洞了解过吗&#34;&gt;#&lt;/a&gt; PHP 反序列化漏洞了解过吗？&lt;/h3&gt;
+&lt;h3 id=&#34;sqlmap中os-shell的利用条件及原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sqlmap中os-shell的利用条件及原理&#34;&gt;#&lt;/a&gt; sqlmap 中–os-shell 的利用条件及原理&lt;/h3&gt;
+&lt;h3 id=&#34;拿到一个待检测的站你觉得应该先做什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#拿到一个待检测的站你觉得应该先做什么&#34;&gt;#&lt;/a&gt; 拿到一个待检测的站，你觉得应该先做什么？&lt;/h3&gt;
+&lt;h3 id=&#34;请谈谈常见的应急排查方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#请谈谈常见的应急排查方式&#34;&gt;#&lt;/a&gt; 请谈谈常见的应急排查方式&lt;/h3&gt;
+&lt;p&gt;Linux 入侵排查思路：&lt;/p&gt;
+&lt;p&gt;账户安全、历史命令、检查异常的端口、检查异常进程、检查开机启动项、检查定时任务、检查服务、检查异常文件、检查系统日志、检查 web 日志&lt;/p&gt;
+&lt;p&gt;Windows 入侵排查思路：账户安全、检查异常的端口、检查异常进程、检查开机启动项、检查定时任务、检查系统日志 /web 日志、webshell、文件修改日期&lt;/p&gt;
+&lt;h3 id=&#34;给你一个网站你要如何去进项漏洞测试如淘宝-京东仅从web页面从登录页面开始列举出你的思路&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#给你一个网站你要如何去进项漏洞测试如淘宝-京东仅从web页面从登录页面开始列举出你的思路&#34;&gt;#&lt;/a&gt; 给你一个网站你要如何去进项漏洞测试（如淘宝、京东，仅从 web 页面）从登录页面开始，列举出你的思路？&lt;/h3&gt;
+&lt;h3 id=&#34;如果看到一个告警ip如何判断是否是真实攻击&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如果看到一个告警ip如何判断是否是真实攻击&#34;&gt;#&lt;/a&gt; 如果看到一个告警 ip，如何判断是否是真实攻击？&lt;/h3&gt;
+&lt;h3 id=&#34;shiro反序列化漏洞产生过程及利用方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shiro反序列化漏洞产生过程及利用方式&#34;&gt;#&lt;/a&gt; shiro 反序列化漏洞产生过程及利用方式&lt;/h3&gt;
+&lt;h3 id=&#34;正向shell与反向shell的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#正向shell与反向shell的区别&#34;&gt;#&lt;/a&gt; 正向 shell 与反向 shell 的区别？&lt;/h3&gt;
+&lt;h3 id=&#34;如何检测webshell&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何检测webshell&#34;&gt;#&lt;/a&gt; 如何检测 webshell&lt;/h3&gt;
+&lt;h3 id=&#34;怎么搭建代理隧道&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么搭建代理隧道&#34;&gt;#&lt;/a&gt; 怎么搭建代理隧道&lt;/h3&gt;
+&lt;p&gt;frp、stowaway&lt;/p&gt;
+&lt;h3 id=&#34;ntlm-hash原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ntlm-hash原理&#34;&gt;#&lt;/a&gt; ntlm-hash 原理&lt;/h3&gt;
+&lt;h3 id=&#34;windows哈希如何抓取&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#windows哈希如何抓取&#34;&gt;#&lt;/a&gt; Windows 哈希如何抓取&lt;/h3&gt;
+&lt;h3 id=&#34;windows哈希传递&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#windows哈希传递&#34;&gt;#&lt;/a&gt; Windows 哈希传递&lt;/h3&gt;
+&lt;h3 id=&#34;怎么横向移动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么横向移动&#34;&gt;#&lt;/a&gt; 怎么横向移动&lt;/h3&gt;
+&lt;p&gt;ipc+AT+schtasks&lt;/p&gt;
+&lt;p&gt;ipc+sc&lt;/p&gt;
+&lt;p&gt;wmic&lt;/p&gt;
+&lt;p&gt;winrm&lt;/p&gt;
+&lt;p&gt;msf&lt;/p&gt;
+&lt;h3 id=&#34;burpsuite如何爆破密码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#burpsuite如何爆破密码&#34;&gt;#&lt;/a&gt; burpsuite 如何爆破密码&lt;/h3&gt;
+&lt;p&gt;它的工作原理是，在原始网络数据包中，利用不同的变量值（字典）对请求参数进行替换，然后模拟请求以获取不同的响应结果，以此达到爆破的目的。&lt;/p&gt;
+&lt;h4 id=&#34;前端验证码绕过&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端验证码绕过&#34;&gt;#&lt;/a&gt; 前端验证码绕过&lt;/h4&gt;
+&lt;h4 id=&#34;后端验证码绕过&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#后端验证码绕过&#34;&gt;#&lt;/a&gt; 后端验证码绕过&lt;/h4&gt;
+&lt;h4 id=&#34;前端token验证&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端token验证&#34;&gt;#&lt;/a&gt; 前端 token 验证&lt;/h4&gt;
+&lt;h3 id=&#34;ips和ids的区别&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ips和ids的区别&#34;&gt;#&lt;/a&gt; IPS 和 IDS 的区别&lt;/h3&gt;
+&lt;p&gt;IPS 具有检测已知和未知攻击并具有成功防止攻击的能力&lt;/p&gt;
+&lt;p&gt;IDS 不具备检测已知和未知攻击，并且也没有防止攻击的能力&lt;/p&gt;
+&lt;h3 id=&#34;webshell的原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#webshell的原理&#34;&gt;#&lt;/a&gt; webshell 的原理&lt;/h3&gt;
+&lt;h3 id=&#34;如何排查系统内存shell&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何排查系统内存shell&#34;&gt;#&lt;/a&gt; 如何排查系统内存 shell&lt;/h3&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://hcyx233.github.io/2023/05/01/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
             <title>渗透测试面试题</title>
