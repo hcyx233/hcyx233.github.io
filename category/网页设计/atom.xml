@@ -11,7 +11,7 @@
         <id>https://hcyx233.github.io/2023/03/18/%E4%BD%BF%E7%94%A8Dreamweaver-CS6%E5%AE%8C%E6%88%90%E4%BD%9C%E4%B8%9A/</id>
         <title>使用Dreamweaver CS6完成作业</title>
         <link rel="alternate" href="https://hcyx233.github.io/2023/03/18/%E4%BD%BF%E7%94%A8Dreamweaver-CS6%E5%AE%8C%E6%88%90%E4%BD%9C%E4%B8%9A/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;/assets/css/APlayer.min.css&#34;&gt;&lt;script src=&#34;/assets/js/APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h5 id=&#34;难点一-新建css样式规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#难点一-新建css样式规则&#34;&gt;#&lt;/a&gt; 难点一、新建 css 样式规则&lt;/h5&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;h5 id=&#34;难点一-新建css样式规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#难点一-新建css样式规则&#34;&gt;#&lt;/a&gt; 难点一、新建 css 样式规则&lt;/h5&gt;
 &lt;p&gt;&lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230319093912.png&#34; alt=&#34;image-20230318110348206&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后题目说的是添加一个 font-family:“宋体”，因为默认是没有宋体的，所以我们要自己添加&lt;br&gt;
 &lt;img src=&#34;https://gitee.com/hcyx233/typora_imgs/raw/master/imgs/20230319093924.png&#34; alt=&#34;image-20230318110540056&#34;&gt;&lt;/p&gt;
