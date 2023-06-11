@@ -5,11 +5,25 @@
         <link>https://hcyx233.github.io</link>
         <description>花晨月夕的个人博客</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 04 Jun 2023 00:18:37 +0800</pubDate>
-        <lastBuildDate>Sun, 04 Jun 2023 00:18:37 +0800</lastBuildDate>
+        <pubDate>Sun, 11 Jun 2023 20:31:23 +0800</pubDate>
+        <lastBuildDate>Sun, 11 Jun 2023 20:31:23 +0800</lastBuildDate>
         <category>原创</category>
         <category>作业</category>
         <category>技术</category>
+        <item>
+            <guid isPermalink="true">https://hcyx233.github.io/2023/06/11/sql-injection/</guid>
+            <title>sql-injection</title>
+            <link>https://hcyx233.github.io/2023/06/11/sql-injection/</link>
+            <pubDate>Sun, 11 Jun 2023 20:31:23 +0800</pubDate>
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;information_schema&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;tables 表，存放着每一个数据库里面的每一个表的信息&lt;/p&gt;
+&lt;p&gt;table_name，表名；table_schema，该表是归属于哪个数据库里面的&lt;/p&gt;
+&lt;p&gt;columns 表，存放着每一个表中每一个字段的信息&lt;/p&gt;
+&lt;p&gt;column_name，列名；table_name，表名；table_schema 数据库名&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://hcyx233.github.io/2023/06/04/hello-world/</guid>
             <title>Hello World</title>

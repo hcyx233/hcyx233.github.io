@@ -5,6 +5,14 @@
     "home_page_url": "https://hcyx233.github.io",
     "items": [
         {
+            "id": "https://hcyx233.github.io/2023/06/11/sql-injection/",
+            "url": "https://hcyx233.github.io/2023/06/11/sql-injection/",
+            "title": "sql-injection",
+            "date_published": "2023-06-11T12:31:23.000Z",
+            "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script><blockquote>\n<p>information_schema</p>\n</blockquote>\n<p>tables 表，存放着每一个数据库里面的每一个表的信息</p>\n<p>table_name，表名；table_schema，该表是归属于哪个数据库里面的</p>\n<p>columns 表，存放着每一个表中每一个字段的信息</p>\n<p>column_name，列名；table_name，表名；table_schema 数据库名</p>\n",
+            "tags": []
+        },
+        {
             "id": "https://hcyx233.github.io/2023/06/04/hello-world/",
             "url": "https://hcyx233.github.io/2023/06/04/hello-world/",
             "title": "Hello World",
